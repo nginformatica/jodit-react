@@ -1,5 +1,5 @@
 {
-  "name": "quirons-jodit",
+  "name": "@quirons/quirons-jodit",
   "version": "1.0.66",
   "description": "Copy of JoditEditor library for adaptations",
   "main": "build/jodit-react.js",
