@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { IJodit } from 'jodit';
+import { IJodit } from '@quirons/jodit';
 
 declare module 'jodit-react' {
 	export interface IJoditEditorProps {

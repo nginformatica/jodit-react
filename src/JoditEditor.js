@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, forwardRef, useLayoutEffect } from 'react'
 import { func, number, object, string } from 'prop-types'
-import { Jodit } from 'jodit'
-import 'jodit/build/jodit.min.css'
+import { Jodit } from '@quirons/jodit'
+import '@quirons/jodit/build/jodit.min.css'
 
 const JoditEditor = forwardRef((props, ref) => {
 	const {

@@ -1,7 +1,7 @@
 {
   "name": "@quirons/quirons-jodit",
   "version": "1.0.66",
-  "description": "Copy of JoditEditor library for adaptations",
+  "description": "Copy of React Jodit Editor library for adaptations",
   "main": "build/jodit-react.js",
   "author": "Wagner Esser <wagner.esser@ngi.com.br> (https://ngi.com.br/)",
   "keywords": [
@@ -16,7 +16,7 @@
     "rte"
   ],
   "dependencies": {
-    "jodit": "^3.4.29"
+    "@quirons/jodit": "3.4.29"
   },
   "peerDependencies": {
     "react": "~0.14 || ^15.0.0 || ^16.0.0",
@@ -35,6 +35,7 @@
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "style-loader": "^0.20.3",
+    "typescript": "3.8.3",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
@@ -47,14 +48,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jodit/jodit-react.git"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jodit/jodit-react/issues"
-  },
-  "homepage": "https://xdsoft.net/jodit/",
-  "directories": {
-    "example": "examples"
+    "url": "git+https://github.com/nginformatica/jodit-react.git"
   }
 }
