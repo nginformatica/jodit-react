@@ -46,7 +46,7 @@ module.exports = (env, argv) => {
             new webpack.optimize.ModuleConcatenationPlugin(),
         ],
         externals: {
-            jodit: 'jodit',
+            jodit: '@quirons/jodit',
             Jodit: 'Jodit',
             react: {
                 root: 'React',
